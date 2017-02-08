@@ -28,8 +28,9 @@ mostrarAnclaje(bicicleta, numeroAnclaje) muestra un mensaje con el id de la bici
   * para simular que un usuario/a del servicio ancla una bici, debes generar una posición al azar entre los anclajes y eliminar esa bici con el método generarAnclaje()
   * para eliminar una bici del array debes poner esa posicion del array a null.
 * mostrarBicicleta(bicicleta, numeroAnclaje) muestra un mensaje con el id de la bici y el número de anclaje donde estaba.
-* generarAnclaje() devuelve una posición al azar entre el número de anclajes. Utiliza ThreadLocalRandom.current()
-**Clase Bicicleta**  
+* generarAnclaje() devuelve una posición al azar entre el número de anclajes. Utiliza ThreadLocalRandom.current()  
+
+**Clase Bicicleta**    
 ####ATRIBUTOS
 * id = identificador de la bicicleta: un número de tres dígitos.  
 
