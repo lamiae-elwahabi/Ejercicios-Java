@@ -5,10 +5,12 @@ Crea un proyecto con tu nombre y apellidos.
 1. Copia y pega la función principal BiciPalma.java. Utilízala como guía en el proceso TDD.  
 2. Completa las clases que necesites implementando los casos test que se proponen en la función principal. No puedes modificar su código.  
 3. Organiza las clases en sus paquetes correpondientes, por si necesitas construir una funcion main() para testear cada clase por separado.  
-###CÓMO ENTREGAR EL CÓDIGO
+
+###CÓMO ENTREGAR EL CÓDIGO  
 * Accede al workspace de Eclipse y busca la carpeta que tiene igual nombre que tu proyecto.
 * Comprime esa carpeta.
 * Envíame el archivo por correo electrónico.  
+
 **Clase Estacion**
 
 ####ATRIBUTOS
