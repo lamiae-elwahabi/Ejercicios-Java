@@ -7,13 +7,47 @@ public class Estacion {
 	private int id = 0;
 	private String direccion = "";
 	private int numeroAnclajes = 0;
-	private Bicicleta[] anclajes;
+	private int[] anclajes;
 	
-	//Constructor de la clase 
+	//Constructores de la clase 
 	
-	Public Estacion(int id, String direccion, int anclaje)
+	public Estacion(){
+	}
+	
+	public Estacion(int id, String direccion, int numeroAnclajes){
 			this.id = id;
 			this.direccion = direccion;
-			this.numeroAnclajes = anclaje;
-			this.anclajes = new Bicicleta[anclaje];
+			this.numeroAnclajes = numeroAnclajes;
+			this.anclajes = new int[numeroAnclajes];
+			
+}
+	
+	//Getters y setteres 
+	public int getId(){
+			return this.id;
+	}
+	public void setId(int id){
+			this.id = id;
+	}
+	public String getDireccion(){
+			return this.direccion;
+	}
+	public void setDireccion(String direccion){
+			this.direccion =  direccion;
+	}
+	public int getNumeroAnclajes(){
+			return this.numeroAnclajes;
+	}
+	public void setNumeroAnclajes(int numeroAnclajes){
+			this.numeroAnclajes = numeroAnclajes;
+	}
+	public int[] getAnclajes(){
+			return this.anclajes;
+	}
+	
+	// Metodos de la clase 
+	
+	public void consultarEstacion(){
+		System.out.println(getId() + " " + getDireccion() + " " + getNumeroAnclajes() );
+	}
 }
