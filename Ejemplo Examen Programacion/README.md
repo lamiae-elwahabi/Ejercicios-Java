@@ -32,10 +32,10 @@ mostrarAnclaje(bicicleta, numeroAnclaje) muestra un mensaje con el id de la bici
 **Clase Bicicleta**
 ####ATRIBUTOS
 * id = identificador de la bicicleta: un número de tres dígitos.
-**Clase TarjetaUsuario**
+**Clase TarjetaUsuario**  
 ####ATRIBUTOS
 *id = identificador de la tarjeta: un número de nueve dígitos.
-*activada = valor lógico que indica si la tarjeta está activada o no.
+*activada = valor lógico que indica si la tarjeta está activada o no.  
 ###**CASOS TEST**
 1. Visualizar estado de la estacion.
 2. Visualizar anclajes libres.
