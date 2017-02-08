@@ -11,7 +11,7 @@ Crea un proyecto con tu nombre y apellidos.
 * Comprime esa carpeta.
 * Envíame el archivo por correo electrónico.  
 
-**Clase Estacion**
+##**Clase Estacion**
 
 ####ATRIBUTOS
 * id = identificador de la estación
@@ -32,11 +32,11 @@ mostrarAnclaje(bicicleta, numeroAnclaje) muestra un mensaje con el id de la bici
 * mostrarBicicleta(bicicleta, numeroAnclaje) muestra un mensaje con el id de la bici y el número de anclaje donde estaba.
 * generarAnclaje() devuelve una posición al azar entre el número de anclajes. Utiliza ThreadLocalRandom.current()  
 
-**Clase Bicicleta**    
+##**Clase Bicicleta**    
 ####ATRIBUTOS
 * id = identificador de la bicicleta: un número de tres dígitos.  
 
-**Clase TarjetaUsuario**   
+##**Clase TarjetaUsuario**   
 ####ATRIBUTOS  
 * id = identificador de la tarjeta: un número de nueve dígitos.  
 * activada = valor lógico que indica si la tarjeta está activada o no.  
