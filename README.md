@@ -1,6 +1,8 @@
 ## Ejercicios-Java.  
 Los ejercicios de practica de JAVA  
-Basandome en el libro _*Beginning Java Programming*_.  
+### Recursos en la que me he basado:  
+Libro _*Beginning Java Programming*_.  
+Libro _*Beginning Java 8 Fundamentals*_.  
 #### Desarrollados mediante TDD (TEST DRIVE DEVELOPMENT) 
 #### Intento aplicar los principios SOLID como estamos desarollando en nuestro grupo DUAL.
 * Single Resposability principle.
