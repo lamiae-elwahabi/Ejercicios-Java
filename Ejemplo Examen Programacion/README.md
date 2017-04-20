@@ -1,4 +1,4 @@
-##Estación de BiciPalma   
+## Estación de BiciPalma   
 Vamos a construir un prototipo de la aplicación que gestiona una estación donde se anclan las bicicletas del servicio BiciPalma.
 Crea un proyecto con tu nombre y apellidos.  
 
@@ -6,19 +6,19 @@ Crea un proyecto con tu nombre y apellidos.
 2. Completa las clases que necesites implementando los casos test que se proponen en la función principal. No puedes modificar su código.  
 3. Organiza las clases en sus paquetes correpondientes, por si necesitas construir una funcion main() para testear cada clase por separado.  
 
-###CÓMO ENTREGAR EL CÓDIGO  
+### CÓMO ENTREGAR EL CÓDIGO  
 * Accede al workspace de Eclipse y busca la carpeta que tiene igual nombre que tu proyecto.
 * Comprime esa carpeta.
 * Envíame el archivo por correo electrónico.  
 
-##**Clase Estacion**
+## **Clase Estacion**
 
-####ATRIBUTOS
+#### ATRIBUTOS
 * id = identificador de la estación
 * direccion = dirección de la esta
 * numeroAnclajes = número de anclajes de la esta
 * anclajes[numeroAnclajes] = array donde almacenarás las bicicletas que se anclen en la estación
-####MÉTODOS
+#### MÉTODOS
 * consultarEstacion() muesta un mensaje con id, direccion y numeroAnclajes
 * anclajesLibres() devuelve la cantidad de anclajes libres
 * consultarAnclajes() recorre el array anclajes y muestra el id de la bici anclada o si está libre
@@ -32,16 +32,16 @@ mostrarAnclaje(bicicleta, numeroAnclaje) muestra un mensaje con el id de la bici
 * mostrarBicicleta(bicicleta, numeroAnclaje) muestra un mensaje con el id de la bici y el número de anclaje donde estaba.
 * generarAnclaje() devuelve una posición al azar entre el número de anclajes. Utiliza ThreadLocalRandom.current()  
 
-##**Clase Bicicleta**    
-####ATRIBUTOS
+## **Clase Bicicleta**    
+#### ATRIBUTOS
 * id = identificador de la bicicleta: un número de tres dígitos.  
 
 ##**Clase TarjetaUsuario**   
-####ATRIBUTOS  
+#### ATRIBUTOS  
 * id = identificador de la tarjeta: un número de nueve dígitos.  
 * activada = valor lógico que indica si la tarjeta está activada o no.  
 
-###CASOS TEST
+### CASOS TEST
 1. Visualizar estado de la estacion.
 2. Visualizar anclajes libres.
 3. Anclar Bicicleta(s).
