@@ -12,3 +12,11 @@ _*Algunos de los ejercicios las hice PAIR PROGRAMING con mis compañeros de clas
 * Liskov Substitution principle.
 * Interface Segregaton principle.
 * Dependecy Inversion principle.
+#### Object-Oriented Programming
+
+* Polimorphysm
+* Inheritance
+* Encapsulation
+* Deffensive programming
+* SOLID Principles
+* Abstraction
