@@ -13,10 +13,9 @@ _*Algunos de los ejercicios las hice PAIR PROGRAMING con mis compañeros de clas
 * Interface Segregaton principle.
 * Dependecy Inversion principle.
 #### Object-Oriented Programming
-
-* Polimorphysm
-* Inheritance
-* Encapsulation
-* Deffensive programming
-* SOLID Principles
-* Abstraction
+* Polimorfismo
+* Herencia
+* Encapsulación
+* Programación defensiva
+* Principios Sólidos
+* Abstracción
