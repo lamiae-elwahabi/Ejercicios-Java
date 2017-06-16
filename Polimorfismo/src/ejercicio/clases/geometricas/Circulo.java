@@ -2,7 +2,7 @@ package ejercicio.clases.geometricas;
 
 public class Circulo extends FiguraGeometrica {
 	
-	//propiedad privada
+	//propiedad de la clase Circulo
 	private double radio 	= 0d;
 	private final double PI = Math.PI;
 
@@ -16,7 +16,7 @@ public class Circulo extends FiguraGeometrica {
 		this.radio = radio;
 		
 	}
-	
+	//Constructor
 	public Circulo(String nombre, double radio){
 		super(nombre);
 		this.radio = radio;

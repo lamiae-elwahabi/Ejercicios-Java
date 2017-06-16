@@ -36,6 +36,7 @@ public class Rectangulo extends FiguraGeometrica implements Drawable{
 	public void setAnchura(double anchura){
 		this.altura = anchura;
 	}
+	//Metodos
 	
 	@Override
 	public double area() {

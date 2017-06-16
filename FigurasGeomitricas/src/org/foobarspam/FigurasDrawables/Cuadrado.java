@@ -33,6 +33,7 @@ public class Cuadrado extends FiguraGeometrica implements Drawable{
 
 	@Override
 	public void draw() {
+		System.out.println("El Cuadrado ha sido dibujados");
 		
 		
 	}

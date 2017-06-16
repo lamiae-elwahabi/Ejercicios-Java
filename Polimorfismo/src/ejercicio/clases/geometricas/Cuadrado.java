@@ -1,7 +1,7 @@
 package ejercicio.clases.geometricas;
 
 public class Cuadrado extends FiguraGeometrica{
-	//propiedad privada
+	//propiedad de la clase Cuadrado
 	private double lado = 0d;
 	
 	public Cuadrado(){

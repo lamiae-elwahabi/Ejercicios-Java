@@ -47,7 +47,13 @@ public class Estacion {
 	
 	// Metodos de la clase 
 	
-	public void consultarEstacion(){
-		System.out.println(getId() + " " + getDireccion() + " " + getNumeroAnclajes() );
-	}
+	public void consultarEstacion() {
+	/*
+	 * Método que imprime la información de la estación
+	 */
+	System.out.println("Id: " + getId());
+	System.out.println("Direccion: " + getDireccion());
+	System.out.println("Numero anclajes: " + getNumeroAnclajes());
+}
+
 }

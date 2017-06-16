@@ -2,9 +2,9 @@ package ejercicio.clases.geometricas;
 
 
 public abstract class FiguraGeometrica {
-	
+	//propiedades
 	private String nombre;
-	
+	//constructor
 	public FiguraGeometrica(){
 		this.nombre = "undefined";
 	};
@@ -12,6 +12,8 @@ public abstract class FiguraGeometrica {
 	public FiguraGeometrica(String nombre){
 		this.nombre = nombre;
 	};
+	
+	//geters y seters
 	
 	public String getNombre(){
 		return this.nombre;

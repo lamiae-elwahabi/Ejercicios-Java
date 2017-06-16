@@ -4,7 +4,7 @@ public class Rectangulo extends FiguraGeometrica {
 	//propiedad privada
 	private double altura 	= 0d;
 	private double anchura 	= 0d;
-	
+	//constructor
 	public Rectangulo(){
 		super(); 
 	}
@@ -20,7 +20,7 @@ public class Rectangulo extends FiguraGeometrica {
 		this.altura = altura;
 		this.anchura = anchura;
 	}
-	
+	//geteres y seters
 	public double getAltura(){
 		return this.altura;
 	}

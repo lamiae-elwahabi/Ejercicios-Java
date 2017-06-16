@@ -6,7 +6,7 @@ public class Circulo extends FiguraGeometrica implements Drawable{
 	private double radio 	= 0d;
 	private final double PI = Math.PI;
 
-	
+	// Sobrecarga de constructores: constructor de la superclase FiguraGeometrica
 	public Circulo(){
 		super(); 
 	}
@@ -34,4 +34,5 @@ public class Circulo extends FiguraGeometrica implements Drawable{
 	public void draw() {
 		System.out.println("El circulo ha sido dibujado.");
 	}
+	
 }
